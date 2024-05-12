@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+
 public class AdServiceImpl extends ServiceImpl<AdMapper, Ad> implements AdService {
     @Autowired
     AdMapper mapper;
